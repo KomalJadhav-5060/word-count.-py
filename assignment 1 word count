@@ -1,0 +1,39 @@
+
+# to count words in string 
+# using split() 
+
+test_string = "Today is the good weather but it might rain later"
+
+
+print ("The original string is : " + test_string) 
+
+# using split()
+res = len(test_string.split()) 
+
+
+print ("The number of words in string are : " + str(res)) 
+ #OUTPUT
+ The original string is : Today is the good weather but it might rain later
+The number of words in string are : 10
+
+
+
+
+
+# occurrence of a single letter
+ 
+test_str = "banana"
+
+count = 0
+
+for i in test_str: 
+	if i == 'a': 
+		count = count + 1
+
+# printing result 
+print ("Count of a in banana is : "
+							+ str(count)) 
+
+
+#OUTPUT
+Count of a in banana is : 3
